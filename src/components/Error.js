@@ -9,7 +9,7 @@ const Error = () => {
         width="480"
         height="240"
         frameBorder="0"
-        class="giphy-embed"
+        className="giphy-embed"
       />
       <h2 style={{ fontSize: '5rem', color: 'red' }}>404 Error</h2>
       <p style={{ fontSize: '1.75rem' }}>
