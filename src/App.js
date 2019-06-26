@@ -8,11 +8,10 @@ import {
 
 // Import Component Files
 import Header from './components/Header';
-import SearchForm from './components/SearchForm';
-import Navbar from './components/Navbar';
 import GalleryList from './components/GalleryList';
 import Error from './components/Error';
 
+// Import Flickr API KEY
 import { API_KEY } from './config';
 
 class App extends Component {
@@ -40,9 +39,11 @@ class App extends Component {
     return (
       <Router>
         <div className="container">
-          <Header title="Flickr API Photo Search" />
-          <SearchForm fetchQuery={this.fetchPhotos} />
-          <Navbar fetchQuery={this.fetchPhotos} />
+          <Header
+            title="Flickr API Photo Search"
+            fetchQuery={this.fetchPhotos}
+          />
+
           {!this.state.isLoaded ? (
             <h2>Loading...</h2>
           ) : (

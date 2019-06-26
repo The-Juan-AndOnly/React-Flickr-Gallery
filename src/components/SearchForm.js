@@ -10,6 +10,7 @@ class SearchForm extends React.Component {
     this.setState({ query: e.target.value });
   };
   handleSubmit = e => {
+    console.log(this.props);
     e.preventDefault();
     this.props.fetchQuery(this.state.query);
     this.props.history.push(`/search/${this.state.query}`);
