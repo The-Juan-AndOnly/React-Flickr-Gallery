@@ -37,7 +37,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/Treehouse-React-Gallery">
         <div className="container">
           <Header
             title="Flickr API Photo Search"
@@ -53,7 +53,11 @@ class App extends Component {
                 path="/"
                 render={() => <Redirect to="/search/buttigieg" />}
               />
-
+              <Route
+                exact
+                path="/search"
+                render={() => <Redirect to="/search/buttigieg" />}
+              />
               <Route
                 path="/search/:query"
                 render={props => (
