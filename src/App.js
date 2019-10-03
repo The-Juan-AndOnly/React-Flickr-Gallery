@@ -12,7 +12,7 @@ import GalleryList from './components/GalleryList';
 import Error from './components/Error';
 
 // Import Flickr API KEY
-import { API_KEY } from './config';
+// import { API_KEY } from './config';
 
 class App extends Component {
   state = {
