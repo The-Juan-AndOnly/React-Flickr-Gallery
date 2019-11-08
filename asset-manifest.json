@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Treehouse-React-Gallery/static/css/main.1aba19c4.chunk.css",
+    "main.js": "/Treehouse-React-Gallery/static/js/main.e39c5f5d.chunk.js",
+    "main.js.map": "/Treehouse-React-Gallery/static/js/main.e39c5f5d.chunk.js.map",
+    "runtime~main.js": "/Treehouse-React-Gallery/static/js/runtime~main.fa9a90e0.js",
+    "runtime~main.js.map": "/Treehouse-React-Gallery/static/js/runtime~main.fa9a90e0.js.map",
+    "static/js/2.16b08904.chunk.js": "/Treehouse-React-Gallery/static/js/2.16b08904.chunk.js",
+    "static/js/2.16b08904.chunk.js.map": "/Treehouse-React-Gallery/static/js/2.16b08904.chunk.js.map",
+    "index.html": "/Treehouse-React-Gallery/index.html",
+    "precache-manifest.1dcea9aa46be3f73b167541f73908d1b.js": "/Treehouse-React-Gallery/precache-manifest.1dcea9aa46be3f73b167541f73908d1b.js",
+    "service-worker.js": "/Treehouse-React-Gallery/service-worker.js",
+    "static/css/main.1aba19c4.chunk.css.map": "/Treehouse-React-Gallery/static/css/main.1aba19c4.chunk.css.map"
+  }
+}
