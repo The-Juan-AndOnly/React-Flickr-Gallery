@@ -12,7 +12,7 @@ import GalleryList from './components/GalleryList';
 import Error from './components/Error';
 
 // Import Flickr API KEY
-// import { API_KEY } from './config';
+import { API_KEY } from './config';
 
 class App extends Component {
   state = {
@@ -38,9 +38,9 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="container">
+        <div className='container'>
           <Header
-            title="Flickr API Photo Search"
+            title='Flickr API Photo Search'
             fetchQuery={this.fetchPhotos}
           />
 
@@ -50,16 +50,16 @@ class App extends Component {
             <Switch>
               <Route
                 exact
-                path="/"
-                render={() => <Redirect to="/search/buttigieg" />}
+                path='/'
+                render={() => <Redirect to='/search/buttigieg' />}
               />
               <Route
                 exact
-                path="/search"
-                render={() => <Redirect to="/search/buttigieg" />}
+                path='/search'
+                render={() => <Redirect to='/search/buttigieg' />}
               />
               <Route
-                path="/search/:query"
+                path='/search/:query'
                 render={props => (
                   <GalleryList {...props} photos={this.state.photos} />
                 )}
